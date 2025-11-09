@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Sandi Kurniawan</title>
+
+    <!-- Font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f6fa;
+            color: #2f3640;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #40739e;
+        }
+
+        header h1 {
+            margin-top: 15px;
+            color: #273c75;
+        }
+
+        header p {
+            color: #353b48;
+        }
+
+        /* Profil singkat */
+        .about {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Video YouTube */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 720px;
+            height: 405px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        /* Gambar-gambar */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+            height: 180px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Sosial media */
+        .social {
+            text-align: center;
+        }
+
+        .social a {
+            display: inline-block;
+            margin: 0 15px;
+            color: #40739e;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .social a:hover {
+            color: #192a56;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #718093;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="img/jalan.jpg" alt="Foto Profil Sandi Kurniawan" class="profile-pic">
+        <h1>Sandi Kurniawan</h1>
+        <p>Mahasiswa Teknik Informatika | Cyber Security Enthusiast | Pencak Silat Athlete</p>
+    </header>
+
+    <section class="about">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya Sandi Kurniawan, mahasiswa Teknik Informatika di STT-NF yang memiliki ketertarikan dalam bidang keamanan siber dan kecerdasan buatan. Saya juga aktif dalam olahraga bela diri, khususnya Pencak Silat, dan telah meraih beberapa prestasi tingkat nasional.</p>
+    </section>
+
+    <section class="video-container">
+        <iframe src="https://www.youtube.com/embed/RJ9eWtF7QLc" title="Video Profil YouTube" allowfullscreen></iframe>
+    </section>
+
+    <section class="gallery">
+        <img src="img/latihan.jpg" alt="Foto 1">
+        <img src="img/Pren'.jpg" alt="Foto 2">
+        <img src="img/tanding1.jpg" alt="Foto 3">
+        <img src="img/himaTI.jpg" alt="Foto 4">
+    </section>
+
+    <section class="social">
+        <h2>Temukan Saya di</h2>
+        <a href="https://www.linkedin.com/in/sandi-kurniawan-875220308" target="_blank">LinkedIn</a>
+        <a href="https://github.com/sanblue0809-commits/Pertemuan-1.git" target="_blank">GitHub</a>
+        <a href="https://instagram.com/sandi.kurniawan" target="_blank">Instagram</a>
+    </section>
+
+    <footer>
+        © 2025 Sandi Kurniawan | Dibuat dengan ❤️ dan HTML
+    </footer>
+</div>
+
+</body>
+</html>
